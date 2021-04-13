@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getting there</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Getting there</h1>
+      <h2> ...maar waar is there?</h2>
+    </header>
+
+    <nav class="navbar">
+      <div class="subnav"><a href="Index.html">Home</a></div>
+      <div class="subnav"><a href="Over.html">Over mij</a></div>
+      <div class="subnav"><a href="Blog.html">Blog</a></div>
+      <div class="subnav"><a href="Links.html">Links</a></div>
+      <div class="subnav"><a class="page" href="Contact.html">Contact</a></div>
+
+    </nav>
+    <main>
+      <div class="form">
+        <h3> Contactformulier</h3>
+        <p>Vind je het nu leuk om een blog te schrijven voor mijn pagina? Of heb je vragen of opmerkingen voor mij? Laat
+          het dan weten via dit formulier!</p>
+        <form name="Contact" method="POST" data-netlify="true">
+          <div class="formitem">
+            <label for="naam">Naam: </label><input id="naam" name="naam" type="text" />
+          </div>
+          <div class="formitem">
+            <label for="email">Email: </label><input id="email" name="email" type="email" />
+          </div>
+          <div class="formitem">
+            <label for="date">Geboortedatum: </label><input id="date" name="date" type="date" />
+          </div>
+          <div class="formitem">
+            Gender: <br>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+          </div>
+          <div class="formitem">
+            <label for="color">Achtergrondkleur voor jouw blog: </label><input type="color" name="favcolor" />
+          </div>
+
+          <div class="formitem">
+            <label for="bericht">Schrijf hier je blog of vermeld hier je vraag/opmerking voor mij: </label><br>
+            <textarea id="bericht" name="bericht" cols="50" rows="15"></textarea>
+
+          </div>
+          <div class="formitem">
+            <label for="foto">Upload je foto: </label><input type="file" id="foto" name="foto" />
+          </div>
+          <div class="formitem">
+            <label for="url">URL naar je website: </label><input type="url" name="url" value="url" />
+          </div>
+          <div class="formitem">
+            <button type="reset">Reset</button>
+          </div>
+          <div class="formitem">
+            <button type="submit">Send</button>
+          </div>
+
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footermenu">
+        <div class="footeritem"> <a href="https://www.google.com" target="_blank"> <img height="30"
+              src="Images/google-logo.png" alt="this is a link to google.com" /></a></div>
+        <div class="footeritem"><a href="https://www.instagram.com" target="_blank"> <img height="30"
+              src="Images/Instagram_logo.png" alt="this is a link to instagram.com" /></a></div>
+        <div class="footeritem"><a href="https://www.linkedin.com" target="_blank"> <img height="30"
+              src="Images/LinkedIn_logo_initials.png" alt="this is a link to google.com" /></a></div>
+      </div>
+      <div class="copyright">
+        ©2021 Monique Drost
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
